@@ -1,0 +1,221 @@
+dockerfile placed in my-app folder.
+
+0.484 Your lock file does not contain a compatible set of packages. Please run composer update.
+0.484 
+0.484   Problem 1
+0.484     - Root composer.json requires php ^8.2 but your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 2
+0.484     - brick/math is locked to version 0.11.0 and an update of this package was not requested.
+0.484     - brick/math 0.11.0 requires php ^8.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 3
+0.484     - carbonphp/carbon-doctrine-types is locked to version 3.2.0 and an update of this package was not requested.
+0.484     - carbonphp/carbon-doctrine-types 3.2.0 requires php ^8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 4
+0.484     - doctrine/lexer is locked to version 3.0.1 and an update of this package was not requested.
+0.484     - doctrine/lexer 3.0.1 requires php ^8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 5
+0.484     - egulias/email-validator is locked to version 4.0.2 and an update of this package was not requested.
+0.484     - egulias/email-validator 4.0.2 requires php >=8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 6
+0.484     - laravel/framework is locked to version v11.4.0 and an update of this package was not requested.
+0.484     - laravel/framework v11.4.0 requires php ^8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 7
+0.484     - laravel/prompts is locked to version v0.1.19 and an update of this package was not requested.
+0.484     - laravel/prompts v0.1.19 requires php ^8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 8
+0.484     - league/flysystem is locked to version 3.27.0 and an update of this package was not requested.
+0.484     - league/flysystem 3.27.0 requires php ^8.0.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 9
+0.484     - league/flysystem-local is locked to version 3.25.1 and an update of this package was not requested.
+0.484     - league/flysystem-local 3.25.1 requires php ^8.0.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 10
+0.484     - monolog/monolog is locked to version 3.6.0 and an update of this package was not requested.
+0.484     - monolog/monolog 3.6.0 requires php >=8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 11
+0.484     - nesbot/carbon is locked to version 3.3.0 and an update of this package was not requested.
+0.484     - nesbot/carbon 3.3.0 requires php ^8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 12
+0.484     - nette/schema is locked to version v1.3.0 and an update of this package was not requested.
+0.484     - nette/schema v1.3.0 requires php 8.1 - 8.3 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 13
+0.484     - nette/utils is locked to version v4.0.4 and an update of this package was not requested.
+0.484     - nette/utils v4.0.4 requires php >=8.0 <8.4 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 14
+0.484     - nunomaduro/termwind is locked to version v2.0.1 and an update of this package was not requested.
+0.484     - nunomaduro/termwind v2.0.1 requires php ^8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 15
+0.484     - psr/log is locked to version 3.0.0 and an update of this package was not requested.
+0.484     - psr/log 3.0.0 requires php >=8.0.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 16
+0.484     - psr/simple-cache is locked to version 3.0.0 and an update of this package was not requested.
+0.484     - psr/simple-cache 3.0.0 requires php >=8.0.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 17
+0.484     - ramsey/collection is locked to version 2.0.0 and an update of this package was not requested.
+0.484     - ramsey/collection 2.0.0 requires php ^8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 18
+0.484     - ramsey/uuid is locked to version 4.7.5 and an update of this package was not requested.
+0.484     - ramsey/uuid 4.7.5 requires php ^8.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 19
+0.484     - symfony/clock is locked to version v7.0.5 and an update of this package was not requested.
+0.484     - symfony/clock v7.0.5 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 20
+0.484     - symfony/console is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/console v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 21
+0.484     - symfony/css-selector is locked to version v7.0.3 and an update of this package was not requested.
+0.484     - symfony/css-selector v7.0.3 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 22
+0.484     - symfony/deprecation-contracts is locked to version v3.4.0 and an update of this package was not requested.
+0.484     - symfony/deprecation-contracts v3.4.0 requires php >=8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 23
+0.484     - symfony/error-handler is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/error-handler v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 24
+0.484     - symfony/event-dispatcher is locked to version v7.0.3 and an update of this package was not requested.
+0.484     - symfony/event-dispatcher v7.0.3 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 25
+0.484     - symfony/event-dispatcher-contracts is locked to version v3.4.2 and an update of this package was not requested.
+0.484     - symfony/event-dispatcher-contracts v3.4.2 requires php >=8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 26
+0.484     - symfony/finder is locked to version v7.0.0 and an update of this package was not requested.
+0.484     - symfony/finder v7.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 27
+0.484     - symfony/http-foundation is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/http-foundation v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 28
+0.484     - symfony/http-kernel is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/http-kernel v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 29
+0.484     - symfony/mailer is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/mailer v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 30
+0.484     - symfony/mime is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/mime v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 31
+0.484     - symfony/process is locked to version v7.0.4 and an update of this package was not requested.
+0.484     - symfony/process v7.0.4 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 32
+0.484     - symfony/routing is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/routing v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 33
+0.484     - symfony/service-contracts is locked to version v3.4.2 and an update of this package was not requested.
+0.484     - symfony/service-contracts v3.4.2 requires php >=8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 34
+0.484     - symfony/string is locked to version v7.0.4 and an update of this package was not requested.
+0.484     - symfony/string v7.0.4 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 35
+0.484     - symfony/translation is locked to version v7.0.4 and an update of this package was not requested.
+0.484     - symfony/translation v7.0.4 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 36
+0.484     - symfony/translation-contracts is locked to version v3.4.2 and an update of this package was not requested.
+0.484     - symfony/translation-contracts v3.4.2 requires php >=8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 37
+0.484     - symfony/uid is locked to version v7.0.3 and an update of this package was not requested.
+0.484     - symfony/uid v7.0.3 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 38
+0.484     - symfony/var-dumper is locked to version v7.0.6 and an update of this package was not requested.
+0.484     - symfony/var-dumper v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 39
+0.484     - laravel/pint is locked to version v1.15.1 and an update of this package was not requested.
+0.484     - laravel/pint v1.15.1 requires php ^8.1.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 40
+0.484     - laravel/sail is locked to version v1.29.1 and an update of this package was not requested.
+0.484     - laravel/sail v1.29.1 requires php ^8.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 41
+0.484     - nunomaduro/collision is locked to version v8.1.1 and an update of this package was not requested.
+0.484     - nunomaduro/collision v8.1.1 requires php ^8.2.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 42
+0.484     - phpunit/php-code-coverage is locked to version 11.0.3 and an update of this package was not requested.
+0.484     - phpunit/php-code-coverage 11.0.3 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 43
+0.484     - phpunit/php-file-iterator is locked to version 5.0.0 and an update of this package was not requested.
+0.484     - phpunit/php-file-iterator 5.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 44
+0.484     - phpunit/php-invoker is locked to version 5.0.0 and an update of this package was not requested.
+0.484     - phpunit/php-invoker 5.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 45
+0.484     - phpunit/php-text-template is locked to version 4.0.0 and an update of this package was not requested.
+0.484     - phpunit/php-text-template 4.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 46
+0.484     - phpunit/php-timer is locked to version 7.0.0 and an update of this package was not requested.
+0.484     - phpunit/php-timer 7.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 47
+0.484     - phpunit/phpunit is locked to version 11.1.2 and an update of this package was not requested.
+0.484     - phpunit/phpunit 11.1.2 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 48
+0.484     - sebastian/cli-parser is locked to version 3.0.1 and an update of this package was not requested.
+0.484     - sebastian/cli-parser 3.0.1 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 49
+0.484     - sebastian/code-unit is locked to version 3.0.0 and an update of this package was not requested.
+0.484     - sebastian/code-unit 3.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 50
+0.484     - sebastian/code-unit-reverse-lookup is locked to version 4.0.0 and an update of this package was not requested.
+0.484     - sebastian/code-unit-reverse-lookup 4.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 51
+0.484     - sebastian/comparator is locked to version 6.0.0 and an update of this package was not requested.
+0.484     - sebastian/comparator 6.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 52
+0.484     - sebastian/complexity is locked to version 4.0.0 and an update of this package was not requested.
+0.484     - sebastian/complexity 4.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 53
+0.484     - sebastian/diff is locked to version 6.0.1 and an update of this package was not requested.
+0.484     - sebastian/diff 6.0.1 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 54
+0.484     - sebastian/environment is locked to version 7.1.0 and an update of this package was not requested.
+0.484     - sebastian/environment 7.1.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 55
+0.484     - sebastian/exporter is locked to version 6.0.1 and an update of this package was not requested.
+0.484     - sebastian/exporter 6.0.1 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 56
+0.484     - sebastian/global-state is locked to version 7.0.1 and an update of this package was not requested.
+0.484     - sebastian/global-state 7.0.1 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 57
+0.484     - sebastian/lines-of-code is locked to version 3.0.0 and an update of this package was not requested.
+0.484     - sebastian/lines-of-code 3.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 58
+0.484     - sebastian/object-enumerator is locked to version 6.0.0 and an update of this package was not requested.
+0.484     - sebastian/object-enumerator 6.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 59
+0.484     - sebastian/object-reflector is locked to version 4.0.0 and an update of this package was not requested.
+0.484     - sebastian/object-reflector 4.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 60
+0.484     - sebastian/recursion-context is locked to version 6.0.0 and an update of this package was not requested.
+0.484     - sebastian/recursion-context 6.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 61
+0.484     - sebastian/type is locked to version 5.0.0 and an update of this package was not requested.
+0.484     - sebastian/type 5.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 62
+0.484     - sebastian/version is locked to version 5.0.0 and an update of this package was not requested.
+0.484     - sebastian/version 5.0.0 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 63
+0.484     - spatie/flare-client-php is locked to version 1.4.4 and an update of this package was not requested.
+0.484     - spatie/flare-client-php 1.4.4 requires php ^8.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 64
+0.484     - spatie/ignition is locked to version 1.13.2 and an update of this package was not requested.
+0.484     - spatie/ignition 1.13.2 requires php ^8.0 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 65
+0.484     - spatie/laravel-ignition is locked to version 2.5.2 and an update of this package was not requested.
+0.484     - spatie/laravel-ignition 2.5.2 requires php ^8.1 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 66
+0.484     - symfony/yaml is locked to version v7.0.3 and an update of this package was not requested.
+0.484     - symfony/yaml v7.0.3 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484   Problem 67
+0.484     - symfony/http-foundation v7.0.6 requires php >=8.2 -> your php version (7.4.33) does not satisfy that requirement.
+0.484     - fruitcake/php-cors v1.3.0 requires symfony/http-foundation ^4.4|^5.4|^6|^7 -> satisfiable by symfony/http-foundation[v7.0.6].
+0.484     - fruitcake/php-cors is locked to version v1.3.0 and an update of this package was not requested.
+0.484 
+------
+Dockerfile:22
+--------------------
+  20 |     
+  21 |     # Composerパッケージのインストール
+  22 | >>> RUN composer install
+  23 |     
+  24 |     # アプリケーションキーの生成
+--------------------
+ERROR: failed to solve: process "/bin/sh -c composer install" did not complete successfully: exit code: 2
+
+
+このエラーは、Laravelプロジェクトの依存関係に問題があることを示しています。
+具体的には、LaravelのバージョンがPHP 8.2以上を要求しているのに対し、PHPのバージョンが7.4.33であるため、依存関係が満たされていないことが原因です。
+
