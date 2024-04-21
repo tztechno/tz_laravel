@@ -2,6 +2,13 @@
 
 ---
 
+% php -v
+PHP 8.3.4 (cli) (built: Mar 12 2024 23:42:26) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.4, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.4, Copyright (c), by Zend Technologies
+
+---
 
 Laravelプロジェクトの基本的なフォルダ構造は以下のようになります：
 
