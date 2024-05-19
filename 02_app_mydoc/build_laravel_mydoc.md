@@ -29,3 +29,8 @@ cd my-laravel-app
 tail -f storage/logs/laravel.log
 
 ```
+```
+[課題 2024-05-20]
+mdファイルは開くがhtml化されていない、textとして開く状態
+
+```
