@@ -1,4 +1,5 @@
 
+```
 cd my-laravel-app
 
 "documents"というディレクトリをプロジェクトの「public」ディレクトリ内に作成します。
@@ -27,3 +28,4 @@ Laravelのログは、通常、storage/logs/laravel.logに出力されます。
 cd my-laravel-app
 tail -f storage/logs/laravel.log
 
+```
