@@ -47,9 +47,20 @@ tail -f storage/logs/laravel.log
 cd my-laravel-app
 composer dump-autoload
 
+
 cd my-laravel-app
 php artisan route:clear
 php artisan config:clear
 php artisan cache:clear
 php artisan view:clear
 php artisan serve
+
+----
+
+## ホルダ内のファイルに対してリンクが自動生成
+## documentとしては,html,phpは表示可能
+## mdはmarkdownタグ,htmlタグが無効
+## 編集機能はないので、VSCを使うこと
+
+
+
