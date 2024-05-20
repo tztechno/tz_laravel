@@ -1,3 +1,4 @@
+---
 
 cd my-laravel-app
 
@@ -9,7 +10,7 @@ cd my-laravel-app
 routes/web.phpファイルを編集
 Route::get('/', 'DocumentController@index');
 
-###################################
+---
 
 cd my-laravel-app
 php artisan make:controller DocumentController
