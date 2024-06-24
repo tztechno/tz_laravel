@@ -1,9 +1,49 @@
 ###
-#
+# Laravel
 ###
 
 ---
 
+LaravelでAJAX通信を行う際に、CSRFトークンの取り扱いが必須です。これは、Laravelがデフォルトで提供するセキュリティ機能の一部です。
+
+具体的には、以下のような流れでCSRFトークンを扱います：
+
+1. **CSRFトークンの生成**: Laravelのビューでフォームを作成する場合、`@csrf`ディレクティブを使用してフォームに自動的にCSRFトークンが挿入されます。
+
+   ```html
+   <form method="POST" action="/submit">
+       @csrf
+       <!-- フォームの内容 -->
+   </form>
+   ```
+
+2. **AJAXリクエストでのCSRFトークンの送信**: JavaScriptでAJAXリクエストを行う際には、`csrf_token()`関数を使用してCSRFトークンを取得し、リクエストのヘッダーに含めます。
+
+   ```javascript
+   function sendRequest() {
+       const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+
+       fetch('/submit', {
+           method: 'POST',
+           headers: {
+               'Content-Type': 'application/json',
+               'X-CSRF-TOKEN': token
+           },
+           body: JSON.stringify({ /* データ */ })
+       })
+       .then(response => response.json())
+       .then(data => {
+           // レスポンスの処理
+       })
+       .catch(error => {
+           console.error('Error:', error);
+       });
+   }
+   ```
+
+3. **CSRFトークンの検証**: LaravelのルートやコントローラでPOSTリクエストを処理する際に、Laravelのミドルウェアが自動的にCSRFトークンを検証します。もしトークンが一致しない場合は、`TokenMismatchException`がスローされることがあります。
+
+このように、LaravelでAJAX通信を行う際にはCSRFトークンを正しく取り扱う必要があります。これにより、セキュリティ上のリスクを低減し、CSRF攻撃からアプリケーションを守ることができます。
 
 ---
 
