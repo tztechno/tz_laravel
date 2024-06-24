@@ -7,7 +7,55 @@
 
 ---
 
+```
+project-root/
+├── app/
+│   ├── Console/
+│   ├── Exceptions/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   ├── Middleware/
+│   │   ├── Requests/
+│   │   └── Kernel.php
+│   └── Providers/
+├── bootstrap/
+│   └── app.php
+├── config/
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeds/
+├── public/
+│   ├── css/
+│   ├── js/
+│   ├── index.php
+│   └── .htaccess
+├── resources/
+│   ├── lang/
+│   ├── views/
+│   │   ├── layouts/
+│   │   └── welcome.blade.php
+│   └── assets/
+├── routes/
+│   ├── web.php
+│   └── api.php
+├── storage/
+│   ├── app/
+│   ├── framework/
+│   │   ├── cache/
+│   │   ├── sessions/
+│   │   └── views/
+│   └── logs/
+├── tests/
+├── vendor/
+├── .env
+├── artisan
+├── composer.json
+├── composer.lock
+├── package.json
+└── webpack.mix.js
 
+```
 ---
 
 ルートホルダにLaravelをインストールし、`index.html`をホストする方法を以下に示します。これには、以下の手順が含まれます。
